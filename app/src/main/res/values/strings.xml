@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppRefuerzo</string>
+    <string name="titulo_inicio">Hola Unab!</string>
+    <string name="registro">Registro</string>
+    <string name="nombre_completo">Nombre completo</string>
+    <string name="correo">Correo</string>
+</resources>
