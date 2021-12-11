@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1086251863643",
+    "project_id": "apprefuerzo-e997d",
+    "storage_bucket": "apprefuerzo-e997d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086251863643:android:9de593f68137b883ee397e",
+        "android_client_info": {
+          "package_name": "com.example.apprefuerzo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086251863643-6dh4467ia655v67o197aop3s69ddmqo0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvwoU8zwAxSrhDBimoMstiEyPaQVsIHSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086251863643-6dh4467ia655v67o197aop3s69ddmqo0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

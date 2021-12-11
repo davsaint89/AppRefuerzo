@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.apprefuerzo">
 
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,16 +15,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppRefuerzo">
         <activity
-            android:name=".RecuperarContrasenaActivity"
+            android:name=".vistas.RecuperarContrasenaActivity"
             android:exported="true" />
         <activity
-            android:name=".RegistrarseActivity"
-            android:exported="true" />
-        <activity
-            android:name=".LoginActivity"
+            android:name=".vistas.RegistroActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".vistas.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

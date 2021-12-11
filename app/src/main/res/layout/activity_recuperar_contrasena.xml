@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@color/colorSecondary"
     android:padding="16dp"
-    tools:context=".RecuperarContrasenaActivity">
+    tools:context=".vistas.RecuperarContrasenaActivity">
 
     <TextView
         android:id="@+id/tv_titulo"
