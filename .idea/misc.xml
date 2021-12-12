@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.27314814814814814" />
         <entry key="app/src/main/res/drawable/boton_deshabilitado.xml" value="0.28703703703703703" />
         <entry key="app/src/main/res/drawable/boton_estilo.xml" value="0.28703703703703703" />
         <entry key="app/src/main/res/drawable/boton_habilitado.xml" value="0.28703703703703703" />
@@ -11,13 +12,16 @@
         <entry key="app/src/main/res/drawable/ic_logo.xml" value="0.28703703703703703" />
         <entry key="app/src/main/res/drawable/ic_mas.xml" value="0.28703703703703703" />
         <entry key="app/src/main/res/layout/activity_editar_perfil.xml" value="0.3353846153846154" />
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.14444444444444443" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="app/src/main/res/layout/activity_perfil.xml" value="0.3353846153846154" />
+        <entry key="app/src/main/res/layout/activity_perfil.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_perfil2.xml" value="0.10833333333333334" />
         <entry key="app/src/main/res/layout/activity_recuperar_contrasena.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_registrarse.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_registro.xml" value="0.12222222222222222" />
+        <entry key="app/src/main/res/layout/fragment_perfil.xml" value="0.33" />
         <entry key="app/src/main/res/menu/opciones.xml" value="0.33" />
+        <entry key="app/src/main/res/menu/popup_img_perfil.xml" value="0.340625" />
       </map>
     </option>
   </component>

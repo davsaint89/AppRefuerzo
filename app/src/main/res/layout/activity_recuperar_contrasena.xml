@@ -33,6 +33,7 @@
         android:hint="Correo"
         android:imeOptions="actionDone"
         android:inputType="textEmailAddress"
+        android:textColor="@color/black"
         android:paddingStart="20dp"
         android:paddingEnd="8dp"
         app:layout_constraintBottom_toBottomOf="parent"

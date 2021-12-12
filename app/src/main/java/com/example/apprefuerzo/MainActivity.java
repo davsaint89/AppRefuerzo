@@ -18,6 +18,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.apprefuerzo.vistas.LoginActivity;
+import com.example.apprefuerzo.vistas.perfil.PerfilActivity;
 import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.tabs.TabLayout;
 import com.google.firebase.auth.FirebaseAuth;
@@ -55,14 +56,15 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()){
 
             case R.id.perfil:
-                Toast.makeText(this, "perfil", Toast.LENGTH_SHORT).show();
-                break;
+                startActivity(new Intent(this, PerfilActivity.class));
+                //Toast.makeText(this, "perfil", Toast.LENGTH_SHORT).show();
+                return true;
             case R.id.notificacion:
                 Toast.makeText(this, "Notificacion", Toast.LENGTH_SHORT).show();
-                break;
+                return true;
             case R.id.configuracion:
                 Toast.makeText(this, "Configuracion", Toast.LENGTH_SHORT).show();
-                break;
+                return true;
 
             case R.id.salir:
                 cerrarSesion();

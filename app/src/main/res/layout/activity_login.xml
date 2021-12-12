@@ -28,6 +28,7 @@
         android:layout_marginTop="32dp"
         android:gravity="center"
         android:hint="Usuario"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -40,6 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:gravity="center"
+        android:textColor="@color/black"
         android:hint="contraseña"
         android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -84,6 +86,7 @@
                 android:id="@+id/tv_olvidocontra"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:text="Olvido su contraseña?"/>
 
             <TextView
@@ -92,6 +95,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
+                android:textColor="@color/black"
                 android:text="Registrarme"/>
 
         </LinearLayout>

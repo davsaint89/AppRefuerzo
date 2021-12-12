@@ -4,4 +4,6 @@
     <string name="registro">Registro</string>
     <string name="nombre_completo">Nombre completo</string>
     <string name="correo">Correo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
